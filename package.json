@@ -1,0 +1,19 @@
+{
+  "name": "dynamodbtomongodb",
+  "version": "1.0.0",
+  "description": "Migrate DynamoDB AWS to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Henrique de Moura",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.379.1",
+    "@aws-sdk/util-dynamodb": "^3.379.1",
+    "aws-sdk": "^2.1425.0",
+    "dotenv": "^16.3.1",
+    "mongodb": "^5.7.0"
+  }
+}
